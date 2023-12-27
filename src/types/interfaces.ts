@@ -10,7 +10,7 @@ export interface InputProps {
 
 export interface CardsProps {
   initialValue: string;
-} //vazia e vou deixar por enquanto
+} 
 
 export interface LabelsProps {
   value: string;

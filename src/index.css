@@ -1,3 +1,55 @@
+/* Colors tokens*/
+:root {
+  --color-light: #F4F4F4;
+  --back-light: #F4F4F4;
+  --color-dark: #2C2C2C;
+  --back-dark: #2C2C2C;
+
+  --color-one-dark: #3C4443;
+  --color-two-dark: #545454; 
+  --color-three-dark: #848484;
+  --icons-dark: #44444C;
+  --stroke-dark: #BCBCBB;
+
+  --color-one-light: #F4F4F4;
+  --color-two-light: #ECECE4;
+  --color-three-light: #C4C4C4;
+  --icons-light: #F4F4F4;
+  --stroke-light: #FFFFFF; 
+
+  --color-one-purple: #441464;
+  --color-two-purple: #7922b3;
+  --color-three-purple: #b058eb;
+  --color-hover-purple: #c485ed;
+  --color-active-purple: #dbb3f6;
+
+  --color-one-blue: #042454;
+  --color-two-blue: #0a48a6;
+  --color-three-blue: #307aea;
+  --color-hover-blue: #77aaf7;
+  --color-active-blue: #aaccff;
+
+  --color-one-red: #780202;
+  --color-two-red: #b50404;
+  --color-three-red: #d21818;
+  --color-hover-red: #ed2e2e;
+  --color-active-red: #ff8a8a;
+
+  --color-one-ocre: #C88D08;
+  --color-two-ocre: #d29408;
+  --color-three-ocre: #efb32b;
+  --color-hover-ocre: #f2d187;
+  --color-active-ocre: #feeec8;
+
+  --color-one-pink: #d21975;
+  --color-two-pink: #FE0080;
+  --color-three-pink: #fe72b8;
+
+  --color-one-orange: #FFC21A;
+  --color-one-roxo: #38006B;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
