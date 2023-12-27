@@ -1,9 +1,5 @@
 //import styles from './Buttons.module.scss'
-
-interface ButtonProps {
-    onClick: () => void;
-    label: string;
-  }
+import { ButtonProps } from '../../../types/interfaces';
   
   const Buttons = ({ onClick, label }: ButtonProps) => {
     return (

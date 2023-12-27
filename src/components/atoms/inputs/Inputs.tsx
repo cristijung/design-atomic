@@ -1,10 +1,7 @@
 import { ChangeEvent } from "react";
+import { InputProps } from "../../../types/interfaces";
 //import styles from './Inputs.module.scss';
 
-interface InputProps {
-  value: string | number; //recebendo string ou número
-  onChange: (value: string | number) => void;
-}
 
 function Inputs({ value, onChange }: InputProps) {
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
