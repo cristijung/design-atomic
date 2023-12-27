@@ -18,7 +18,7 @@ A estrutura do projeto simples usando a seguinte hierarquia:
 - Pages: Páginas que combinam organismos para formar as visualizações completas.
 
 ### Bases de referência
-Atomic Design: (https://bradfrost.com/blog/post/atomic-web-design/);
-Referência: (https://atomicdesign.bradfrost.com/);
+- Atomic Design: (https://bradfrost.com/blog/post/atomic-web-design/);
+- Referência: (https://atomicdesign.bradfrost.com/);
 
 ![alt text](./public/assets/1.png)
