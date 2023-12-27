@@ -3,6 +3,7 @@
 Atomic Design criado por:
 - React 18
 - Material UI
+- Scss
 
 ## Arquitetura
 
@@ -22,3 +23,5 @@ A estrutura do projeto simples usando a seguinte hierarquia:
 - Referência: (https://atomicdesign.bradfrost.com/);
 
 ![alt text](./public/assets/1.png)
+
+-- Comando para scss: `npm install sass --save-dev`
