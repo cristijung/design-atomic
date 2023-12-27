@@ -8,4 +8,11 @@ export interface InputProps {
   onChange: (value: string | number) => void;
 }  
 
-export interface CardsProps {} //vazia e vou deixar por enquanto
+export interface CardsProps {
+  initialValue: string;
+} //vazia e vou deixar por enquanto
+
+export interface LabelsProps {
+  value: string;
+  onChange: (value: string) => void;
+}
