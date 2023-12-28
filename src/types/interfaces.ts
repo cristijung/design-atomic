@@ -16,3 +16,8 @@ export interface LabelsProps {
   value: string;
   onChange: (value: string) => void;
 }
+
+export interface MenuLinkProps {
+  children: React.ReactNode;
+  to: string;
+}

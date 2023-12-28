@@ -1,5 +1,9 @@
 /* Colors tokens*/
 :root {
+  margin:auto;
+  max-width: 98%;
+  font-size: 18px;
+
   --color-light: #F4F4F4;
   --back-light: #F4F4F4;
   --color-dark: #2C2C2C;
@@ -44,7 +48,6 @@
   --color-one-pink: #d21975;
   --color-two-pink: #FE0080;
   --color-three-pink: #fe72b8;
-
   --color-one-orange: #FFC21A;
   --color-one-roxo: #38006B;
 }
@@ -57,9 +60,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--back-light);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+

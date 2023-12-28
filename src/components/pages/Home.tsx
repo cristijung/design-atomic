@@ -1,14 +1,6 @@
-import Footer from "../organisms/footer/Footer"
-import Header from "../organisms/header/Header"
 
-
-function Home() {
+export default function Home() {
     return(
-        <>
-        <Header/>
-        <Footer/>
-        </>
+        <h1>Welcome</h1>
     )
 }
-
-export default Home

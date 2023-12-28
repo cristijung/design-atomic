@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.scss';
-import Home from './components/pages/Home';
+import Default from './components/pages/Default';
 
 function App() {
   return (
    <>
-   <Home />
+   <Default />
    </>
   )   
 }
