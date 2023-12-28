@@ -1,9 +1,13 @@
-//import styles from './Footer.module.scss'
+import styles from './Footer.module.scss'
 
 export default function Footer() {
     return(
         <>
-        <h2>Footer</h2>
+        <footer className={styles.footer}>
+            <div className={styles.texto}>
+                Aqui vão as informações do Footer
+            </div>
+        </footer>
         </>
     )
 }

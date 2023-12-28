@@ -2,7 +2,7 @@
 :root {
   margin:auto;
   max-width: 98%;
-  font-size: 18px;
+  font-size: 18px;  
 
   --color-light: #F4F4F4;
   --back-light: #F4F4F4;
@@ -68,3 +68,7 @@ code {
     monospace;
 }
 
+.content {
+  height: 40vh;
+  overflow: auto;
+}
