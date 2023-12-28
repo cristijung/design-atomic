@@ -1,0 +1,15 @@
+
+.btn {
+    background-color: var(--color-one-pink);
+    color: var(--color-light);
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 0.2em 1.4em;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--color-three-pink);
+    color: var(--color-dark); 
+}
