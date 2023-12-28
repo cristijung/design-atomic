@@ -28,6 +28,16 @@ A estrutura do projeto simples usando a seguinte hierarquia:
 
 ![alt text](./public/assets/3.png)
 
+### Estrutura 3 de diretórios (parte dela):
+
+![alt text](./public/assets/4.png)
+
+#### Observe a imagem:
+1 - O **botão** que será usado na barra de menu é um `Átomo`: todas as funcionalidades dele são criadas ali e passadas para o MenuBar;
+2 - O **MenuBar** é a junção dos átomos, portanto uma `Molécula`: aqui a configuração é um conjunto de átomos que forma uma molécula. O MenuBar precisa fazer parte do Header;
+3 - O **Header**, por ser um componente maior e que pode conter várias funcionalidades, **como um MenuBar (uma molécula)**, **um Form para login (outra molécula)** ou mesmo alguma **informação relevante (mais uma molécula)**, fará parte dos `Organismos`;
+4 - **Todos os organismos fazem parte de um `Template` que será apontado nas `Pages`**. Neste exemplo que estou mostrando, optei por manter o template, dentro de um componente chamado **Default**, por ser uma aplicação que exibe a metodologia de projeto **Atomic Design**, mas quando criamos um Design System (por ele ser muito mais escalável e possuir inúmeros componentes), é aconselhável criar a sessão de `Template` separada.
+
 ### Bases de referência
 - Atomic Design: (https://bradfrost.com/blog/post/atomic-web-design/);
 - Referência: (https://atomicdesign.bradfrost.com/);
